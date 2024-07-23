@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left : 15px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  .container{
+    height: 500px;
+    border: 2px solid red;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    align-content: center;
+  /*   align-items: flex-end ; */
+  /*   grid-auto-rows: 200px; */
+  /*   justify-content: right; */
+  /*   grid-template-rows: 100px 200px 200px 200px; */
+    
+  }
+  .box{
+    border: 2px solid green;
+    padding: 20px;
+  }
+  #box-1{
+    /* justify-self: center; */
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  /* Grid template areas sample code  */
+  /* grid-template-areas: "nav nav nav nav"
+                          "sbr man man man"
+                          "sbr man man man"
+                          "ftr ftr ftr ftr";
+
+.box1{
+    grid-area: nav;
+}
+.box2{
+    grid-area: sbr;
+}
+.box3{
+    grid-area: man;
+}
+.box4{
+    grid-area: ftr;
+} */
+  

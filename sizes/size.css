@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left : 15px ; 
+    font-size : 16px ;
+  }
+  .unq {
+    font-size : 2em   ;
+  }
+  #mainhd {
+    font-size : 30px ;
+  }
+  

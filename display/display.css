@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left: 15px ;
+  }
+  /* .ct {
+    display : flex ;
+  } */
+  .box1 {
+    height: 150px ;  
+    width : 150px ;
+    background-color : red ;
+    border : 2px solid black ;
+  /*   display : inline ; */
+  /*   display : block ; */
+  /*   display : inline-block ; */
+    
+  }
+  .box2 {
+    height: 150px ; 
+    width : 150px;
+    background-color : blue ;
+    border : 2px solid black ;
+  /*   display : inline ; */
+  }
+  .box3 {
+    height: 150px ; 
+    width : 150px;
+    background-color : green ;
+    border : 2px solid black ;
+  /*   visibility : hidden ;  */
+  }
+  .box4 {
+    height: 150px ; 
+    width : 150px;
+    background-color : yellow ;
+    border : 2px solid black ;
+  /*   display : none ; */
+    
+  }
+  .box5 {
+    height: 150px ; 
+    width : 150px;
+    background-color : pink ;
+    border : 2px solid black ;
+  /*   display : inline-block ; */
+  }
+  

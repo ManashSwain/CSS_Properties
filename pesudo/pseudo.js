@@ -1,0 +1,1 @@
+console.log("Welcome to pseudo classes and elements in css!");

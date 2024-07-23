@@ -1,0 +1,29 @@
+@media  screen and (min-width : 640px) {
+     body{
+        background-color: aqua;
+     }
+}
+
+@media  screen and (min-width : 768px) {
+    body{
+       background-color: rgb(80, 196, 34);
+    }
+}
+
+@media  screen and (min-width : 1024px) {
+    body{
+       background-color: rgb(171, 206, 14);
+    }
+}
+
+@media  screen and (min-width : 1280px) {
+    body{
+       background-color: rgb(155, 91, 144);
+    }
+}
+
+@media  screen and (min-width : 1536px) {
+    body{
+       background-color: rgb(168, 74, 82);
+    }
+}

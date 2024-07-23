@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left : 15px ;
+  }
+  .boxcontainer{
+    width: 550px;
+    height: 550px;
+    border: 2px solid yellow;
+    position: relative;
+  }
+  .box1 {
+    height : 150px ;
+    width : 150px ;
+    background-color : green ;
+    border : 2px solid black ;
+      /* position : static ;   */
+    /* position : relative ;  */
+     position : absolute ;  
+      left : 100px;
+    top : 100px ;  
+    /* bottom : 100px ;  */
+    /* position : fixed ;  */
+    /* position : sticky ; */
+   }
+  

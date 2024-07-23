@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS - Grid</title>
+  <!-- favicon  -->
+   <link rel="icon" href="../Images/css.png">
+  <link href="./grid.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>CSS Grid</h1>
+  <p>CSS grid can be initialized using display grid.</p>
+  <h4>There are some properties for parent and child.</h4>
+  <h4>Grid properties for a parent</h4>
+  <ol>
+    <li>grid-gap(defaults to row and column gap)</li>
+    <li>Grid-template-columns(provides gap between columns)</li>
+    <li>Grid-template-rows (provides gap between rows)</li>
+    <li>Justify-content(aligns in x axis)</li>
+    <li>align-content (aligns in x axis)</li>
+    <li>grid-template-areas</li>
+  </ol>
+  <h4>Grid Properties for a children</h4>
+  <ol>
+    <li>Justify-self (aligns in x axis)</li>
+    <li>align-self (aligns in x axis)</li>
+    <li>grid-column (can span in columns eg : 1/3)</li>
+    <li>grid-row (can span in row eg : 1/3)</li>
+    <li>grid-area(should be used with grid-template-areas property )</li>
+  </ol>
+  <h4>We can also use grid template areas to define the layout of the page
+  </h4>
+  <h2>Grid demo</h2>
+  <div class="container">
+    <div class="box" id="box-1">Box-1</div>
+    <div class="box" id="box-2">Box-2</div>
+    <div class="box" id="box-3">Box-3</div>
+    <div class="box" id="box-4">Box-4</div>
+    <div class="box" id="box-5">Box-5</div>
+    <div class="box" id="box-6">Box-6</div>
+    <div class="box" id="box-7">Box-7</div>
+    <div class="box" id="box-8">Box-8</div>
+    <div class="box" id="box-9">Box-9</div>
+    <div class="box" id="box-10">Box-10</div>
+  </div>
+  <script src="./grid.js">
+  </script>
+
+ 
+</body>
+
+</html>

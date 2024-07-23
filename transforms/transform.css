@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left: 15px;
+  }
+  .container{
+    width: 600px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  }
+  
+  .btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    /* transform: translate(75px); */
+    /* transform: translateX(30px); */
+    /* transform: translateY(60px); */
+    /* transform: scale(2.4); */
+    /* transform: scaleX(2.2); */
+    /* transform: scaleY(3.5); */
+    /* transform: skewX(31deg);  */
+    transform: skewY(40deg);
+    /* transform: skew(45deg); */
+    /* transform: rotateX(73deg); */
+    /* transform: rotateY(83deg); */
+  }
+  
+  

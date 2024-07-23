@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS-Animations</title>
+  <!-- favicon  -->
+   <link rel="icon" href="../Images/css.png">
+   <!-- stylesheet  -->
+  <link href="./animation.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>CSS Animations</h1>
+  <p>It is used to animate CSS properties with more control.We can use @key frames rule to change the animation from a
+    given style to a new style.</p>
+  <h3>Animation syntax</h3>
+  <p>
+  <pre>@key frames animation_name {
+    from{
+    width: 20px ;
+    }
+    to {
+    width: 30px;
+    }
+    }</pre>
+  (likewise we can change multiple properties)</p>
+  <h3>Properties to add animations</h3>
+  <h4>Animation-name (name of the animation)</h4>
+  <h4>Animation-duration (how long does the animation run ?)</h4>
+  <h4>Animation-timing-function (determines speed curve of the animation)</h4>
+  <h4>Animation-delay (Delay for the start of an animation)</h4>
+  <h4>Animation-iteration-count (Number of items an animation should run)</h4>
+  <h4>Animation-direction (Specifies the direction of the animation)</h4>
+  <h4>Animation-fillmode (Specifies the styles to the element before or after its executing)</h4>
+  <h4>Using percentage value with animations</h4>
+  <p>We can use% values to indicate what should happen when a certain percent of animations is completed </p>
+  <pre>
+    @key frames animation_name {
+    0% {
+    width: 20px ;
+    }
+    25% {
+    width: 40px ;
+    }
+    50% {
+    width: 60px ;
+    }
+    75% {
+    width: 80px ;
+    }
+    100% {
+    width: 100px ;
+    }
+    }
+  </pre>
+  <h3>CSS - Animations</h3>
+  <div class="container">
+    <div class="box box1">box-1</div>
+   </div>
+    </div>
+  <script src="./animation.js"></script>
+</body>
+
+</html>

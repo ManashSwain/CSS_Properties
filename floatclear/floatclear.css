@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    max-width:  100%;
+    margin-left : 15px ;
+  }
+  .box1 {
+    height : 150px ;
+    width : 150px ;
+    background-color : green ;
+    border : 2px solid black ;
+    float : right ;
+    /* clear : left ; */
+  }
+  .box2 {
+    height : 150px ;
+    width : 150px ;
+    background-color : blue ;
+    border : 2px solid black ;
+    /* float : right ; */
+    clear : right ;
+  }
+  

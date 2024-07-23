@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS - Flexbox</title>
+  <!-- favicon  -->
+   <link rel="icon" href="../Images/css.png">
+   <!-- stylesheet -->
+  <link href="./flexbox.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>CSS Flex Box </h1>
+  <p>Aims at providing a better way to layout align and distribute space among items in a container.</p>
+  <h3>Flex direction property</h3>
+  <p>It defines the direction towards which items are laid.</p>
+  <ol>
+    <li>Row</li>
+    <li>Row-reverse</li>
+    <li>Column</li>
+    <li>Column-reverse</li>
+  </ol>
+  <h3>We have flex properties for parent and child.</h3>
+  <h3>Flex properties for a parent</h3>
+  <ol>
+    <li>Flex-wrap</li>
+    <li>Justify-content</li>
+    <li>Align-items</li>
+    <li>Align-content</li>
+  </ol>
+  <h4>Flex-wrap</h4>
+  <p>It can be wrap,no-wrap and wrap-reverse</p>
+  <h4>Justify-content</h4>
+  <p>It defines the alignment along the main axis of the web page.Some of the values are center, flex-start and
+    flex-end.</p>
+  <h4>Align-items</h4>
+  <p>It defines the alignment along the cross axis. Some of the values are Cemter,flex-start and flex-end.</p>
+  <h4>Align-content</h4>
+  <p>Aligns a flex-container lines when there is extra space in cross axis.Some of the values are center ,flex-start and
+    flex-end.</p>
+  <h3>Flex-properties for the children</h3>
+  <ol>
+    <li>order</li>
+    <li>align-self</li>
+    <li>flex-grow</li>
+    <li>flex-shrink</li>
+    <li>flex-basis</li>
+  </ol>
+  <h4>Order</h4>
+  <p>Controls the order in which the items appear in the flex container.</p>
+  <p>Some of the values are 0,1,2,3....etc.The default value is 0 .If you give the order 1 then it will show the item in the last.</p>
+  <h4>Align-self</h4>
+  <p>Allows default alignment to be overridden for individual flex items.We have to disable align content in the container.</p>
+  <p>It is applicable for cross axis.</p>
+  <p>Some of the values are center,flex-start and flex-end.</p>
+  <h4>Flex-grow</h4>
+  <p>Defines the ability for a flex item to grow.Some of the values are 1,2,3,4.....etc</p>
+  <p>Default value is 0 .You need to set the value as 1 to grow.</p>
+  <h4>Flex-shrink</h4>
+  <p>It specifies how much a flex item will shrink relative to the rest of the flex item.</p>
+  <p>The default value is 1.You need to set as 2 to see the shrinking.</p>
+  <h4>Flex-basis</h4>
+  <p>When flex-direction is set to row .Flex-basis will control width.</p>
+  <p>When flex direction is set to column flex basis will control height.</p>
+  <p>Row = width</p>
+  <p>column = height</p>
+  <p>Flex- basis defines the initial width in the direction of the main axis of the child</p>
+  <p>For example : If a flex basis is set to 25 % and if there are 8 boxes . It will split into two rows.</p>
+  <h2>Flexbox-Practical</h2>
+  <div class="container" id="cont">
+    <div class="box" id="box-1">Box-1</div>
+    <div class="box" id="box-2">Box-2</div>
+    <div class="box" id="box-3">Box-3</div>
+    <div class="box" id="box-4">Box-4</div>
+    <div class="box" id="box-5">Box-5</div>
+    <div class="box" id="box-6">Box-6</div>
+    <div class="box" id="box-7">Box-7</div>
+    <div class="box" id="box-8">Box-8</div>
+  </div>
+  <script src="./flexbox.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left : 15px ;
+    
+  }
+
+  #wildlife {
+    text-align : center ;
+    text-decoration :  none ; /* over line,linethrough and under line are some of the values */
+    text-transform : capitalize ;
+  }
+
+  #para {
+    
+    line-height : 1.5  ;
+    font-family: 'Lato', sans-serif;
+    font-size:  40px ;
+    
+  }
+    #para2 {
+      font-size: 30px ;
+      font-weight: bolder ;/* try bold ,bolder ,light and lighter values*/
+      font-style: oblique 20deg  ;
+      font-variant: normal;
+      
+    }
+    .last1 {
+      height: 100px;
+      width: 100px ;
+      background-color: cyan;
+  /*     border: 1px solid pink; */
+      box-shadow:  inset 2px 2px 3px 3px orangered ;
+      
+    }
+  

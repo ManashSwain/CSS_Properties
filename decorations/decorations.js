@@ -1,0 +1,1 @@
+console.log("Welcome to decoration and fonts in CSS!");

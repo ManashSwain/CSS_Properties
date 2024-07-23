@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS - Positions</title>
+  <!-- favicon  -->
+   <link rel="icon" href="../Images/css.png">
+   <!-- stylesheet  -->
+  <link href="./position.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <h1>CSS Position property</h1>
+  <p>It is used to manipulate the location of an element</p>
+  
+  <p>Following are the possible values </p>
+  <ol>
+    <li>Static</li>
+    <li>Relative</li>
+    <li>Absolute</li>
+    <li>Fixed</li>
+    <li>Sticky</li>
+  
+  </ol>
+  <h3>Static</h3>
+  <p>The default position. It is set by default and Z index wont work.</p>
+  <h3>Relative</h3>
+  <p>The top/bottom/left/right Z index will now work.</p>
+  <p>From its own</p>
+  <h3>Absolute</h3>
+  <p>The element is removed from the flow and is relatively positioned to its first non static ancestor top/bottom works.</p>
+  <p>From page </p>
+  <h3>Fixed</h3>
+  <p>Just like absolute except the element is positioned relative to the browser window .</p>
+  <h3>Sticky</h3>
+  <p>The element is positioned based on users scroll position.</p>
+  <h3>List-Style property</h3>
+  <p>The list style property is a short hand for type ,position and image .</p>
+  <p> Example : ul{list-style : square inside url("")</p>
+  <h2>Z-Index property</h2>
+  <p>The Z index property specifies the stack order of an element .</p>
+  <p>It defines which layer will be above which in case of overlapping elements .Greater the Z index value the element will be on top </p>
+  <hr>
+  <h2>Practical</h2>
+  <div class="boxcontainer">
+    <div class="box1">This is box1</div>
+  </div>
+  <!-- <div class="box1">This is box1</div> -->
+  <script src="./position.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left: 15px;
+  }
+  .container {
+    width: 35vw;
+    height: 30vh;
+    border :2px solid red;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    animation-name: expand;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: reverse;
+    animation-iteration-count: 3;
+    animation-direction:reverse ;
+}
+@keyframes expand {
+    0%{
+        width: 100px;
+        background-color: gray;
+    } 
+    25%{
+        width: 150px;
+        background-color: rgb(135, 153, 54);
+    } 
+    50%{
+        width: 200px;
+        background-color: rgb(19, 98, 172);
+    } 
+    75%{
+        width: 250px;
+        background-color: rgb(31, 47, 139);
+    } 
+    100%{
+        width: 300px;
+        background-color: rgb(153, 189, 55);
+    } 
+}
+
+  
+  
+  
+  

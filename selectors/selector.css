@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+  }
+  
+  /* Universal Selector  */
+  
+  *{
+    margin: 5px; 
+    background-color: rgb(169, 223, 191);
+  }
+  
+  /* class Selector  */
+  
+  .main{
+    color: red;
+    background-color: whitesmoke;
+  }
+  
+  /*Id selector  */
+  
+  #head {
+    color: blue;
+    background-color: pink;
+    
+  }
+  
+  /* Single Element Selector */
+  li {
+    background-color: red;
+  }
+  
+  /* Multi Element Selector   */
+  
+  div,span {
+    background-color: yellowgreen;
+  }
+  

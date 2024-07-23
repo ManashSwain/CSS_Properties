@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    margin-left: 15px ;
+  }
+  /*The background color property  */
+   #new {
+     background-color: purple;
+   }
+  
+  /*The background Image property  */
+  
+  /*The background Repeat property  */
+  /*repeat ,no repeat,repeatX and repeatY can be the values  */
+  
+  /*The background Attatchment property  */
+  /* fixed and scroll  */
+  
+  /*The background position property  */
+  /*bottom,right,left ,top and bottom are the values  */
+  
+  /*The background size property  */
+  /*cover contain and auto are the values  */
+  
+  .three {
+    background-image: url("../Images/css.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position : left ;
+    background-size : contain ;
+    width: 400px;
+  }
+
+  
+  
+  
+  
+  
+  
+  

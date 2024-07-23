@@ -1,0 +1,49 @@
+html, body {
+   max-width: 100%;
+    margin-left : 15px;
+  }
+
+  *{
+    box-sizing: border-box;
+    
+  }
+  .container {
+    height: 70vh;
+    width : 90vw;
+    border: 2px solid red;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-content:center; */
+  }
+  
+  .box{
+    
+    border : 2px solid green ;
+   margin: 10px; 
+    width: 200px;
+     height: 200px; 
+     flex-basis: 25%; 
+    
+  }
+  #box-3{
+    order: 1;
+  }
+  #box-4 {
+    order: 2;
+  }
+  #box-5 {
+    flex-grow: 2;
+  }
+  #box-6{
+    flex-grow: 3; 
+     flex-basis: 200px;
+  }
+  #box-1 {
+    flex-shrink: 2 ;
+  }
+  
