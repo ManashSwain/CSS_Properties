@@ -20,7 +20,7 @@ To use the code in this repository, simply clone the repository to your local ma
 
 command:
 
-git clone https://github.com/your-username/css-properties-repo.git
+git clone https://github.com/ManashSwain/CSS_Properties.git
 
 Usage
 
@@ -51,6 +51,6 @@ Contributing
 
 Contributions are welcome! If you have any improvements or new examples to add, please fork the repository, create a new branch, and submit a pull request. Ensure your code follows the existing structure and conventions.
 
-web view : 
+web view :https://manashswain.github.io/CSS_Properties/ 
 
 Incase of any queries please reach out to me at manash0802@gmail.com.
